@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0c0a09"/>
+
+  <!-- Subtle hex grid backdrop -->
+  <g opacity="0.05" stroke="#f59e0b" stroke-width="1">
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(0 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(150 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(300 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(450 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(600 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(750 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(900 60)"/>
+    <polygon points="60,0 30,52 60,104 120,104 150,52 120,0" transform="translate(1050 60)"/>
+  </g>
+
+  <!-- Logo mark, scaled larger -->
+  <g transform="translate(180 315) scale(1.2)">
+    <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-80" x2="0" y2="-30"/>
+      <line x1="69" y1="-40" x2="26" y2="-15"/>
+      <line x1="69" y1="40" x2="26" y2="15"/>
+      <line x1="0" y1="80" x2="0" y2="30"/>
+      <line x1="-69" y1="40" x2="-26" y2="15"/>
+      <line x1="-69" y1="-40" x2="-26" y2="-15"/>
+    </g>
+    <g fill="#f59e0b">
+      <circle cx="0" cy="-80" r="9"/>
+      <circle cx="69" cy="-40" r="9"/>
+      <circle cx="69" cy="40" r="9"/>
+      <circle cx="0" cy="80" r="9"/>
+      <circle cx="-69" cy="40" r="9"/>
+      <circle cx="-69" cy="-40" r="9"/>
+    </g>
+    <polygon points="26,0 13,22 -13,22 -26,0 -13,-22 13,-22" fill="#f59e0b"/>
+    <polygon points="14,0 7,12 -7,12 -14,0 -7,-12 7,-12" fill="#0c0a09"/>
+  </g>
+
+  <!-- Wordmark + tagline -->
+  <text x="380" y="290" font-family="Georgia, 'Times New Roman', serif"
+        font-size="92" font-weight="600" fill="#fef3c7" letter-spacing="1">The Lattice</text>
+  <text x="385" y="340" font-family="Georgia, 'Times New Roman', serif"
+        font-size="32" fill="#fcd34d" font-style="italic">Multi-party communion for ERC-7857 souls.</text>
+  <text x="385" y="385" font-family="ui-monospace, 'SF Mono', Menlo, monospace"
+        font-size="19" fill="#a8a29e" letter-spacing="2">N souls. One TEE inference. Atomic N-way royalty.</text>
+
+  <line x1="385" y1="430" x2="1100" y2="430" stroke="#44403c" stroke-width="1"/>
+  <text x="385" y="468" font-family="ui-monospace, 'SF Mono', Menlo, monospace"
+        font-size="16" fill="#78716c" letter-spacing="1">0G APAC HACKATHON 2026 · TRACK 1: AGENTIC INFRASTRUCTURE</text>
+  <text x="385" y="494" font-family="ui-monospace, 'SF Mono', Menlo, monospace"
+        font-size="16" fill="#78716c" letter-spacing="1">github.com/mgnlia/lattice</text>
+</svg>

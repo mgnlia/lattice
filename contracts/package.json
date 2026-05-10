@@ -1,0 +1,15 @@
+{
+  "name": "@lattice/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test -vvv",
+    "test:gas": "forge test --gas-report",
+    "fmt": "forge fmt",
+    "deps": "forge install foundry-rs/forge-std@v1.9.4 --no-commit && forge install OpenZeppelin/openzeppelin-contracts@v5.1.0 --no-commit",
+    "deploy:mainnet": "forge script script/Deploy.s.sol --rpc-url $ZEROG_RPC_URL --broadcast --slow --private-key $DEPLOYER_PRIVATE_KEY -vvv",
+    "deploy:dryrun": "forge script script/Deploy.s.sol --rpc-url $ZEROG_RPC_URL --private-key $DEPLOYER_PRIVATE_KEY -vvv",
+    "verify:all": "forge script script/Verify.s.sol --rpc-url $ZEROG_RPC_URL"
+  }
+}

@@ -1,0 +1,62 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build
+dist/
+build/
+out/
+.next/
+.turbo/
+
+# foundry
+cache/
+broadcast/
+**/lib/forge-std/
+**/lib/openzeppelin-contracts/
+**/lib/openzeppelin-contracts-upgradeable/
+**/lib/0g-agent-nft/
+
+# env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# local
+.DS_Store
+*.log
+.vscode/
+.idea/
+.claude/
+
+# generated artifacts
+artifacts/local/
+ui/.next/
+ui/out/
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+
+# coverage
+coverage/
+*.lcov
+
+# orchestrator runtime
+orchestrator/uploads/
+orchestrator/keys/
+
+# vercel cli + tsbuildinfo
+.vercel/
+**/.vercel/
+*.tsbuildinfo
+
+# secrets — extra defense
+**/secrets.json
+**/private-key.txt
+
+# Internal docs — never push public
+research/
+docs/X-POSTS.md
+docs/RUNBOOK.md
+docs/DEMO.md

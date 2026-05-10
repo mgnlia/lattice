@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 192" fill="none" role="img" aria-label="The Lattice">
+  <!-- Mark, scaled and centered in 192px tall slot -->
+  <g transform="translate(96 96)" stroke="#f59e0b" stroke-width="3" stroke-linecap="round">
+    <line x1="0" y1="-58" x2="0" y2="-22"/>
+    <line x1="50" y1="-29" x2="20" y2="-12"/>
+    <line x1="50" y1="29" x2="20" y2="12"/>
+    <line x1="0" y1="58" x2="0" y2="22"/>
+    <line x1="-50" y1="29" x2="-20" y2="12"/>
+    <line x1="-50" y1="-29" x2="-20" y2="-12"/>
+  </g>
+  <g transform="translate(96 96)" fill="#f59e0b">
+    <circle cx="0" cy="-58" r="7"/>
+    <circle cx="50" cy="-29" r="7"/>
+    <circle cx="50" cy="29" r="7"/>
+    <circle cx="0" cy="58" r="7"/>
+    <circle cx="-50" cy="29" r="7"/>
+    <circle cx="-50" cy="-29" r="7"/>
+  </g>
+  <polygon transform="translate(96 96)" points="22,0 11,19 -11,19 -22,0 -11,-19 11,-19" fill="#f59e0b"/>
+  <polygon transform="translate(96 96)" points="11,0 5.5,9.5 -5.5,9.5 -11,0 -5.5,-9.5 5.5,-9.5" fill="#0c0a09"/>
+
+  <!-- Wordmark -->
+  <text x="216" y="116" font-family="Georgia, 'Times New Roman', serif"
+        font-size="72" font-weight="600" fill="#fef3c7" letter-spacing="1">The Lattice</text>
+  <text x="220" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace"
+        font-size="13" fill="#a8a29e" letter-spacing="3">MULTI-PARTY COMMUNION FOR ERC-7857 SOULS</text>
+</svg>

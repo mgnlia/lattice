@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" role="img" aria-label="The Lattice">
+  <!-- N=6 souls connected to a central TEE chamber -->
+  <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round">
+    <line x1="128" y1="48" x2="128" y2="105"/>
+    <line x1="197" y1="88" x2="146" y2="118"/>
+    <line x1="197" y1="168" x2="146" y2="138"/>
+    <line x1="128" y1="208" x2="128" y2="151"/>
+    <line x1="59" y1="168" x2="110" y2="138"/>
+    <line x1="59" y1="88" x2="110" y2="118"/>
+  </g>
+  <g fill="#f59e0b">
+    <circle cx="128" cy="48" r="9"/>
+    <circle cx="197" cy="88" r="9"/>
+    <circle cx="197" cy="168" r="9"/>
+    <circle cx="128" cy="208" r="9"/>
+    <circle cx="59" cy="168" r="9"/>
+    <circle cx="59" cy="88" r="9"/>
+  </g>
+  <!-- Central hexagon — the communion / TEE chamber -->
+  <polygon points="128,98 154,113 154,143 128,158 102,143 102,113" fill="#f59e0b"/>
+  <!-- Hollow inner hexagon for depth (cut against background) -->
+  <polygon points="128,112 142,120 142,136 128,144 114,136 114,120" fill="#0c0a09"/>
+</svg>

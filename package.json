@@ -1,0 +1,25 @@
+{
+  "name": "lattice",
+  "private": true,
+  "version": "0.1.0",
+  "description": "The Lattice — multi-party communion primitive for ERC-7857 souls on 0G. APAC 2026 hackathon submission.",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "contracts",
+    "orchestrator",
+    "ui"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "seed": "pnpm -F orchestrator seed",
+    "dev:orchestrator": "pnpm -F orchestrator dev",
+    "dev:ui": "pnpm -F ui dev",
+    "dev": "pnpm run --parallel /^dev:/"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "license": "MIT"
+}
